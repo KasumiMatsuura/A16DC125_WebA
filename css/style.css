@@ -1,0 +1,26 @@
+body {
+  font-family: 'TsukuARdGothic-Regular',sans-serif;
+}
+
+body .top_section {
+  position: relative;
+}
+
+body .top_section img {
+  width: 100vw;
+  height: 800px;
+  object-fit: cover;
+  filter: opacity(70%);
+}
+
+body .top_section h1 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  letter-spacing: 0.7em;
+  color: #fff;
+  font-size: 34px;
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+}
