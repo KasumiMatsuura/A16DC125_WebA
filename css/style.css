@@ -29,6 +29,19 @@ html body .top_section h1 {
   -webkit-writing-mode: vertical-rl;
   -ms-writing-mode: tb-rl;
   writing-mode: vertical-rl;
+  animation-name: fadein;
+  animation-duration: 4s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 html body main {
@@ -100,6 +113,19 @@ html body main .contents .wrapper p {
   color: #5D3939;
   line-height: 1.8em;
   text-align: center;
+  animation-name: fadein;
+  animation-duration: 2s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 html body main .contents .wrapper .last_contents {
@@ -125,6 +151,19 @@ html body main .end_contents p {
   color: #707070;
   margin: 0 auto;
   line-height: 1.8em;
+  animation-name: fadein;
+  animation-duration: 2s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 html body main .end_contents iframe {

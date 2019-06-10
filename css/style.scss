@@ -33,6 +33,19 @@ body{
        -webkit-writing-mode: vertical-rl;
         -ms-writing-mode: tb-rl;
           writing-mode: vertical-rl;
+          animation-name: fadein;
+          animation-duration: 4s;
+          @keyframes fadein {
+            from {
+               opacity: 0;
+               transform: translateY(20px);
+}
+              to {
+                opacity: 1;
+                transform: translateY(0);
+}
+}
+
 
     }
 
@@ -98,6 +111,18 @@ body{
           color: $contents_p;
           line-height: 1.8em;
           text-align: center;
+          animation-name: fadein;
+          animation-duration: 2s;
+          @keyframes fadein {
+            from {
+               opacity: 0;
+               transform: translateY(20px);
+}
+              to {
+                opacity: 1;
+                transform: translateY(0);
+}
+}
       }
       .last_contents{
           padding-bottom: 50px;
@@ -124,6 +149,18 @@ body{
         color: #707070;
         margin: 0 auto;
         line-height: 1.8em;
+        animation-name: fadein;
+          animation-duration: 2s;
+          @keyframes fadein {
+            from {
+               opacity: 0;
+               transform: translateY(20px);
+}
+              to {
+                opacity: 1;
+                transform: translateY(0);
+}
+}
       }
       iframe{
         padding-top: 30px;
