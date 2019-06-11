@@ -3,5 +3,5 @@
 
 リポジトリurl: https://github.com/KasumiMatsuura/A16DC125_WebA.git
 
-http://htmlpreview.github.io/でのプレビューurl：https://github.com/KasumiMatsuura/A16DC125_WebA/blob/master/index.html
+http://htmlpreview.github.io/でのプレビュー用url：https://github.com/KasumiMatsuura/A16DC125_WebA/blob/master/index.html
 
